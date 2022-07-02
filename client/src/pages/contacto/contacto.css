@@ -1,0 +1,56 @@
+.contacto {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/4835537/pexels-photo-4835537.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+  }
+  
+  .contactTitle {
+    font-size: 50px;
+    color: white;
+  }
+  
+  .contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm > label {
+    margin: 20px 0;
+  }
+  
+  .contactInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .contactMessage {
+    padding: 50px;
+    background-color: white;
+    border: none;
+  }
+
+  .contactButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(250, 113, 113);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .contactButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(247, 54, 54);
+  }
+  
